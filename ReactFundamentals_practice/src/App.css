@@ -1,0 +1,46 @@
+
+.navbar {
+  background: #1e293b;
+  padding: 15px 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar > ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar a,
+.navbar button {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background: #334155;
+  padding: 12px !important;
+  margin-top: 10px !important;
+}
+
+.sub-menu--open {
+  display: block;
+}
+
+.sub-menu li {
+  padding: 8px;
+}
